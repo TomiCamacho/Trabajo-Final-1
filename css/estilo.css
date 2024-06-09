@@ -1,3 +1,11 @@
 .foto-retrato{
     width: 500px;
 }
+
+.icon-menu{
+    width: 30px
+}
+
+.icon-instagram, .icon-behance, .icon-dribbble{
+    width: 20px;
+}
