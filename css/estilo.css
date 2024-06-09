@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
+
 .foto-retrato{
-    width: 450px;
+    width: 485px;
 }
 
 .icon-menu{
@@ -72,7 +74,7 @@ body{
 }
 
 .header-menu{
-    margin-left: 235px;
+    margin-left: 280px;
     align-self: center;
 }
 
@@ -111,9 +113,10 @@ body{
 .hero-info-img{
     /* background-color: aquamarine; */
     border-left: 1px solid #dbdbdb;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .hero-info-texto-title{
@@ -194,6 +197,6 @@ body{
 }
 
 .empresas-info-logo{
-    height: 13vh;
-    background-color:  #a7a7a7;
+    height: 11vh;
+    color: #cfcfcf;
 }
