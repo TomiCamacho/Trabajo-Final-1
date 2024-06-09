@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 .foto-retrato{
-    width: 500px;
+    width: 450px;
 }
 
 .icon-menu{
@@ -29,12 +29,7 @@ body{
     border-bottom: 2px solid #d3d3d3;
 }
 
-.header-vacio-izq{
-    width: 5%;
-    /* background-color: aqua; */
-}
-
-.header-vacio-der{
+.vacio-der, .vacio-izq{
     width: 5%;
     /* background-color: aqua; */
 }
@@ -90,4 +85,115 @@ body{
 .header-marca-letra, .nombre-redes{
     text-decoration: none;
     color: black;
+}
+
+.hero{
+    display: flex;
+    border-bottom: 2px solid #d3d3d3;
+
+}
+
+.hero-info{
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+
+.hero-info-texto{
+    padding-left: 40px;
+    /* margin-top: 5px; */
+    /* background-color: aquamarine; */
+}
+
+.hero-info-img{
+    /* background-color: aquamarine; */
+    border-left: 1px solid #dbdbdb;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.hero-info-texto-title{
+    font-family: "Inter", Sans-serif;
+    font-size: 60px;
+    color: rgb(31, 30, 30);
+    /* background-color: coral; */
+    margin-bottom: 30px;
+}
+
+.hero-info-texto-button{
+    padding: 16px 32px;
+    margin: 0px;
+    background-color: #FEC737;
+    font-family: "Inter", Sans-serif;
+    color: rgb(31, 30, 30);
+    font-size: 16px;
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 0px 0px;
+    box-shadow: rgb(31, 30, 30);
+    position: relative;
+    transition: 0.5s;
+}
+
+.hero-info-texto-button:hover{
+    background-color: rgb(31, 30, 30);
+    color: #FEC737;
+    box-shadow: rgb(31, 30, 30);
+    cursor: pointer;
+    animation: presionarboton 0.5s forwards;
+}
+
+.hero-info-texto-button:not(:hover){
+    animation: notpresionarboton 0.5s;
+}
+
+@keyframes presionarboton{
+    0%{
+        transform: translateX(0);
+        /* transform: translateY(0); */
+        box-shadow: 5px 5px 0px 0px;
+    }
+    100%{
+        transform: translateX(5px);
+        /* transform: translateY(5px); */
+        box-shadow: 0px 0px 0px 0px;
+    }
+}
+
+@keyframes notpresionarboton{
+    0%{
+        transform: translateX(5px);
+        /* transform: translateY(0); */
+        box-shadow: 0px 0px 0px 0px;
+    }
+    100%{
+        transform: translateX(0px);
+        /* transform: translateY(-5px); */
+        box-shadow: 5px 5px 0px 0px;
+    }
+}
+
+.empresas{
+    height: 17vh;
+    border-bottom: 2px solid #d3d3d3;
+    display: flex;
+}
+
+.empresas-info{
+    width: 90%;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.empresas-info-logo{
+    height: 13vh;
+    background-color:  #a7a7a7;
 }
