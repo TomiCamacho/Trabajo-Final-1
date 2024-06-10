@@ -157,7 +157,7 @@ body{
     animation: presionarboton 0.5s forwards;
 }
 
-button:not(:hover){
+.button:not(:hover){
     animation: notpresionarboton 0.5s;
 }
 
@@ -218,7 +218,6 @@ button:not(:hover){
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .aboutme-info-img{
@@ -240,11 +239,13 @@ button:not(:hover){
     background-color: #1DBF73;
     border-radius: 50px;
     border-color: none;
-    font-size: 13px;
+    font-size: 14px;
     color: white;
     font-weight: 500;
     text-align: center;
 }
+
+
 
 .aboutme-info-texto-seccion{
     width: 60px;
@@ -267,4 +268,143 @@ button:not(:hover){
 .aboutme-info-texto-button{
     margin-top: 15px;
     /* color: var(--color-letra); */
+}
+
+.servicios{
+    display: flex;
+    border-bottom: 2px solid #d3d3d3;
+    height: 100vh;
+}
+
+.servicios-info{
+    width: 90%;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuente);
+}
+
+.servicios-info-info{
+    width: 100%;
+    height: 90%;
+    margin-top: 40px;
+    /* background-color: coral; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.servicios-info-info-seccion{
+    width: 80px;
+    position: relative;
+    left: 70px;
+}
+
+.servicios-info-info-texto{
+    text-align: center;
+    font-size: 50px;
+    color: var(--color-letra);
+    margin-top: 25px;
+}
+
+.servicios-info-info-contenedora{
+    background: url("../images/background.svg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #FEC737; */
+    height: 455px;
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+
+.servicios-bloques{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    background-color: white;
+    margin: 20px 0px;
+    height: 415px;
+    width: 320px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+
+.servicios-bloques-logo{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logodisenioweb{
+    width: 128px;
+}
+
+.servicios-button{
+    margin-top: 40px;
+}
+
+.servicios-info-info-seccion{
+    /* width: 60px; */
+    height: 30px;
+    margin: 0px 460px;
+    padding-top: 13px;
+}
+
+.servicios-bloques-nombre{
+    font-size: 25px;
+    color: var(--color-letra);
+    font-weight: 600;
+}
+
+.servicios-button{
+    padding: 16px 32px;
+    /* margin: 0px; */
+    background-color: #FEC737;
+    font-family: "Inter", Sans-serif;
+    color: var(--color-letra);
+    font-size: 16px;
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 0px 0px;
+    box-shadow: rgb(31, 30, 30);
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.servicios-bloques:hover{
+    background-color: #FEC737;
+    box-shadow: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.servicios-bloques:hover p{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    box-shadow: rgb(31, 30, 30);
+    cursor: pointer;
+    animation: presionarboton 0.5s forwards;
+}
+
+.servicios-bloques:not(:hover) p{
+    animation: notpresionarboton 0.5s;
+}
+
+.button-gestiondedatos{
+    background-color: #1DBF73;
+    /* color: white; */
+    width: 85px;
+    margin-left: 28px;
+    box-shadow: rgb(31, 30, 30);
+    box-shadow: 5px 5px 0px 0px;
+}
+
+.button-disenioweb{
+    margin-top: 48px;
 }
