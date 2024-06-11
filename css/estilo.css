@@ -414,7 +414,7 @@ body{
 }
 
 .logo-gestion{
-    margin: 10px 0vw;
+    padding: 30px 0vw;
     padding-bottom: 0px;
 }
 
@@ -526,7 +526,7 @@ body{
 }
 
 .proyectos-info-titulo{
-    padding-bottom: 3vh;
+    padding-bottom: 7vh;
     border-bottom: 1px solid #dbdbdb;
     width: 90vw;
     text-align: center;
@@ -578,8 +578,121 @@ body{
 }
 
 .proyectos-flechas{
-    width: 12px;
+    width: 14px;
     color: #FEC737;
     padding-left: 3px;
 }
 
+.contacto{
+    width: 100vw;
+    height: 900px;
+    border-bottom: 2px solid #d3d3d3;
+    display: flex;
+}
+
+.contacto-info{
+    width: 90vw;
+    height: 100%;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    font-family: var(--fuente);
+    color: var(--color-letra);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-info-texto{
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-titulo{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contacto-p{
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.contacto-formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-formulario-contenedor{
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    padding: 35px 95px;
+    /* background-color: #1DBF73; */
+}
+
+.formulario-label{
+    margin-bottom: 12px;
+}
+
+.formulario-input{
+    margin-bottom: 35px;
+    border: 2px solid #d3d3d3;
+    width: 300px;
+    height: 40px;
+}
+
+.formulario-mensaje{
+    margin-bottom: 35px;
+    height: 100px;
+    resize: none;
+}
+
+.contacto-button{
+        padding: 22px 32px;
+        width: 170px;
+        background-color: #FEC737;
+        font-family: "Inter", Sans-serif;
+        color: var(--color-letra);
+        font-size: 16px;
+        font-weight: 600;
+        border-width: 0px;
+        border-radius: 2px;
+        box-shadow: 5px 5px 0px 0px;
+        box-shadow: rgb(31, 30, 30);
+        position: relative;
+        transition: 0.5s;
+        text-decoration: none;
+        align-self: center;
+}
+
+.contacto-button:hover{
+    background-color: rgb(44, 43, 43);
+    color: #FEC737;
+    box-shadow: rgb(31, 30, 30);
+    cursor: pointer;
+    animation: presionarboton 0.5s forwards;
+}
+
+.contacto-button:not(:hover){
+    animation: notpresionarboton 0.5s;
+}
+
+.footer{
+    height: 10vh;
+    width: 100vw;
+    /* border-bottom: 2px solid #d3d3d3; */
+    display: flex;
+}
+
+.footer-info{
+    width: 90vw;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    font-family: var(--fuente);
+    color: var(--color-letra);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

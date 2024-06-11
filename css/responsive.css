@@ -74,6 +74,14 @@
         width: 313px;
         height: 313px;
     }
+
+    .contacto{
+        height: 1000px;
+    }
+
+    .contacto-titulo{
+        font-size: 33px;
+    }
 }
 
 @media(max-width:480px){
@@ -102,6 +110,32 @@
     .proyectos-img:hover{
         width: 340px;
         height: 340px;
+    }
+
+    .contacto{
+        height: 900px;
+    }
+
+    .contacto-button{
+        padding: 22px 32px;
+        width: 150px;
+    }
+
+    .formulario-mensaje{
+        margin-bottom: 25px;
+    }
+    
+    .contacto-titulo{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .contacto-p{
+        font-size: 16px;
+    }
+
+    .contacto-formulario-contenedor{
+        padding: 18px 40px;
     }
 }
 
@@ -153,6 +187,54 @@
     .proyectos-img:hover{
         width: 230px;
         height: 230px;
+    }
+
+    .contacto{
+        height: 790px;
+    }
+
+    .contacto-button{
+        height: 30px;
+        width: 125px;
+        margin-bottom: 13px;
+        padding-bottom: 30px;
+        padding-top: 12px;
+    }
+
+    .formulario-mensaje{
+        margin-bottom: 0px;
+    }
+    
+    .contacto-titulo{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contacto-p{
+        font-size: 14px;
+        max-width: 250px;
+    }
+
+    .contacto-formulario-contenedor{
+        padding: 10px 25px;
+    }
+
+    .formulario-label{
+        margin-bottom: 9px;
+        font-size: 15px;
+    }
+    
+    .formulario-input{
+        margin-bottom: 25px;
+        border: 2px solid #d3d3d3;
+        width: 200px;
+        height: 30px;
+    }
+    
+    .formulario-mensaje{
+        margin-bottom: 35px;
+        height: 100px;
+        resize: none;
     }
 }
 
