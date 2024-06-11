@@ -1,0 +1,176 @@
+@media(max-width:1024px){
+    .aboutme-info-img{
+        padding-left: 60px;
+        padding-top: 65px;
+        padding-bottom: 40px;
+        width: 290px;
+    }
+    
+    .aboutme-info-texto{
+        margin-left: 20px;
+        margin-top: 65px;
+        margin-bottom: 0px;
+        /* margin-right: 10px; */
+        font-family: var(--fuente);
+        max-width: 390px;
+    }
+
+    .servicios{
+        height: 1300px;
+    }
+    .servicios-info-info-contenedora{
+        flex-wrap: wrap;
+    }
+    .button-uxui, .button-disenioweb{
+        margin-top: 10%;
+    }
+    .logo-gestion{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:768px){
+    .hero-info-img{
+        display: none;
+    }
+    .hero-info-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button{
+        width: 165px;
+    }
+    .aboutme-info-img{
+        display: none;
+    }
+    .aboutme-info-texto{
+        max-width: 430px;
+    }
+    .logo-gestion{
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:480px){
+    .hero-info-texto-title{
+        font-size: 45px;
+        max-width: 240px;
+    }
+    .hero-info-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5vw;
+        margin-top: 0px;
+    }
+    .aboutme-info-texto{
+        max-width: 350px;
+    }
+    .aboutme-info-texto-h3{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:320px){
+    .hero-info-texto-title{
+        font-size: 33px;
+        max-width: 165px;
+    }
+    .hero-info-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-top: 0px;
+    }
+    .aboutme-info-texto{
+        max-width: 220px;
+    }
+    .aboutme-info-texto-h3{
+        font-size: 30px;
+    }
+    .aboutme-info-texto-p{
+        font-size: 15px;
+    }
+    .logo-disenioweb, .logo-uxui{
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:1220px){
+    .foto-retrato{
+        width: 300px;
+    }
+}
+
+@media(min-height:1000px){
+.servicios-info-info-seccion{
+    width: 80px;
+    padding-bottom: 1px;}
+}
+
+@media(min-height:900px){
+    .servicios-info-info-seccion{
+        width: 80px;
+        padding-bottom: 0.8px;}
+    }
+
+@media(max-width:1001px){
+        .servicios{
+            height: 2000px;
+        }
+    }
+
+@media(max-width:830px){
+    .empresas-info-logo{
+        width: 80px;
+    }
+}
+
+@media(max-width:790px){
+    .header-marca-letra{
+        font-size: 20px;
+    }
+    .nombre-redes{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:560px){
+    .header-marca{
+        display: none;
+    }
+    .redes{
+        display: none;
+    }
+    .header-info{
+        justify-content: center;
+    }
+    .header-menu{
+        padding: 0px;
+    }
+    .empresas-info-logo{
+        width: 50px;
+    }
+}
+
+/* @media(min-width:1440px){
+    .aboutme-info-texto-p{
+    width: 600px;
+    }
+}
+
+@media(min-width:1620px){
+    .aboutme-info-texto-p{
+    width: 750px;
+    }
+}
+
+@media(min-width:1800px){
+    .aboutme-info-texto-p{
+    width: 950px;
+    }
+} */

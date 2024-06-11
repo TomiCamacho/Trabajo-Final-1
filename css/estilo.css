@@ -6,9 +6,7 @@
     --fuente: "Inter", Sans-serif
 }
 
-.foto-retrato{
-    width: 485px;
-}
+
 
 .icon-menu{
     width: 30px
@@ -18,11 +16,12 @@
     width: 21px;
     position: relative;
     top: 1.6px;
-    margin-right: 10px;
+    padding-right: 10px;
 }
 
 body{
     margin: 0px;
+    width: 100vw;
 }
 
 .header{
@@ -32,16 +31,18 @@ body{
     align-items: center;
     /* background-color: aqua; */
     border-bottom: 2px solid #d3d3d3;
+    width: 100vw;
 }
 
 .vacio-der, .vacio-izq{
-    width: 5%;
+    width: 5vw;
     /* background-color: aqua; */
 }
 
 .header-info{
     display: flex;
-    width: 90%;
+    justify-content: space-between;
+    width: 90vw;
     height:100%;
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
@@ -49,13 +50,13 @@ body{
 }
 
 .header-marca{
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 3vw;
     align-self: center;
 }
 
 .header-redes{
     display: flex;
-    margin: 0px 0px 0px 220px;
+    /* padding: 0 0vh 0vh; */
     align-items: center;
     /* background-color: gold; */
 }
@@ -69,17 +70,18 @@ body{
 }
 
 .redes{
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     align-items: center;
     display: flex; 
     height: 45%;   
-    margin: 6px;
+    /* margin: 6px; */
     border: 1px solid #f0eded;
+    margin: 0vw 0.5vw;
 }
 
 .header-menu{
-    margin-left: 280px;
+    padding-right: 6vw;
     align-self: center;
 }
 
@@ -97,13 +99,14 @@ body{
 .hero{
     display: flex;
     border-bottom: 2px solid #d3d3d3;
-
+    width: 100vw;
+    height: 75vh;
 }
 
 .hero-info{
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
-    width: 90%;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
     /* background-color: aquamarine; */
@@ -118,10 +121,17 @@ body{
 .hero-info-img{
     /* background-color: aquamarine; */
     border-left: 1px solid #dbdbdb;
-    padding-left: 40px;
+    /* padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.foto-retrato{
+    width: 485px;
 }
 
 .hero-info-texto-title{
@@ -191,6 +201,7 @@ body{
     height: 17vh;
     border-bottom: 2px solid #d3d3d3;
     display: flex;
+    width: 100vw;
 }
 
 .empresas-info{
@@ -203,7 +214,8 @@ body{
 }
 
 .empresas-info-logo{
-    height: 11vh;
+    /* height: 11vh; */
+    width: 100px;
     color: #cfcfcf;
 }
 
@@ -211,13 +223,16 @@ body{
     display: flex;
     border-bottom: 2px solid #d3d3d3;
     height: 100vh;
+    width: 100vw;
 }
 
 .aboutme-info{
-    width: 90%;
+    width: 90vw;
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .aboutme-info-img{
@@ -227,11 +242,12 @@ body{
 }
 
 .aboutme-info-texto{
-    margin-left: 110px;
+    margin-left: 30px;
     margin-top: 65px;
     margin-bottom: 0px;
-    margin-right: 0px;
+    /* margin-right: 10px; */
     font-family: var(--fuente);
+    max-width: 420px;
 }
 
 .seccion{
@@ -259,7 +275,7 @@ body{
 }
 
 .aboutme-info-texto-p{
-    width: 475px;
+    /* max-width: 475px; */
     font-size: 17px;
     line-height: 1.5;
     color: #5c5c5c;
@@ -267,22 +283,39 @@ body{
 
 .aboutme-info-texto-button{
     margin-top: 15px;
-    /* color: var(--color-letra); */
+    padding: 22px 32px;
+    background-color: #FEC737;
+    font-family: "Inter", Sans-serif;
+    color: var(--color-letra);
+    font-size: 16px;
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 0px 0px;
+    box-shadow: rgb(31, 30, 30);
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
 }
 
 .servicios{
     display: flex;
     border-bottom: 2px solid #d3d3d3;
     height: 100vh;
+    width: 100vw;
+    /* background-color: burlywood; */
 }
 
 .servicios-info{
-    width: 90%;
+    width: 90vw;
+    height: 100%;
     border-left: 1px solid #dbdbdb;
     border-right: 1px solid #dbdbdb;
     display: flex;
     justify-content: center;
     font-family: var(--fuente);
+    align-items: center;
+    /* background-color: aquamarine; */
 }
 
 .servicios-info-info{
@@ -298,7 +331,7 @@ body{
 
 .servicios-info-info-seccion{
     width: 80px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     /* position: relative;
     left: 70px; */
 }
@@ -316,13 +349,16 @@ body{
     flex-direction: row;
     justify-content: space-around;
     /* background-color: #FEC737; */
-    height: 455px;
+    height:85%;
     padding: 0px 20px;
-    margin: 0px 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .servicios-bloques{
-    padding: 20px 20px;
+    padding: 4vh 4vw;
     display: flex;
     flex-direction: column;
     border: 1px solid #d3d3d3;
@@ -335,12 +371,25 @@ body{
     transition: 0.5s;
 }
 
-
+.bloque-gestiondedatos{
+    padding: 2vh 4vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    background-color: white;
+    margin: 20px 20px;
+    height: 415px;
+    width: 320px;
+    align-items: center;
+    transition: 0.5s;
+}
 
 .servicios-bloques-logo{
     width: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: coral;
 }
 
 .logodisenioweb{
@@ -354,7 +403,7 @@ body{
 .servicios-info-info-seccion{
     /* width: 60px; */
     height: 30px;
-    margin: 0px 460px;
+    /* margin: 0px 460px; */
     padding-top: 13px;
 }
 
@@ -362,6 +411,12 @@ body{
     font-size: 25px;
     color: var(--color-letra);
     font-weight: 600;
+    font-family: var(--fuente);
+    margin-bottom: 20px;
+}
+
+.nombre-gestion{
+    margin-bottom: 10px;
 }
 
 .servicios-button{
@@ -379,6 +434,7 @@ body{
     position: relative;
     transition: 0.5s;
     text-decoration: none;
+    margin-top: 20%;
 }
 
 .servicios-bloques:hover{
@@ -402,12 +458,9 @@ body{
 .button-gestiondedatos{
     background-color: #1DBF73;
     /* color: white; */
-    width: 85px;
-    margin-left: 28px;
+    /* width: 85px;
+    margin-left: 28px; */
     box-shadow: rgb(31, 30, 30);
     box-shadow: 5px 5px 0px 0px;
-}
-
-.button-disenioweb{
-    margin-top: 48px;
+    /* margin-bottom: 20%; */
 }
