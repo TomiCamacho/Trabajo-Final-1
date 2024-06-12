@@ -1,0 +1,5 @@
+Este trabajo consta de la replicación del diseño de un portfolio tomado de la plataforma Dribbble. El diseño en cuestión es: https://dribbble.com/shots/20825675-Portfolio-Personal-Website-Portfolio.
+Para desarrollar la página web se utilizó código HTML y CSS. Aseguré que este proyecto sea totalmente responsive en función de las medidas básicas de amchura (1920px, 1440px, 1280px, 1024px, 768px, 480px y 320px).
+En cuanto al responsive, desde un principio ajusté los distintos anchos tomando una altura fija de 768px. Cerca del momento de entrega me di cuenta que quizás algunas pantallas, como la de algunos teléfonos, tienen una altura menor. Es por esto que intenté ajustar por encima el responsive para algunas alturas más pequeñas. Espero haber conseguido el objetivo en este sentido.
+El portfolio muestra una descripción personal, los servicios en los que puedo ayudar a mis clientes, mis proyectos destacados y un formulario de contacto.
+Durante el proyecto se realizaron commits frecuentes por cada sección, tanto para código HTML, la aplicación de un estilo con CSS, y sus ajustes correspondientes en el responsive.
