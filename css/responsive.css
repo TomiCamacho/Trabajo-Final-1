@@ -39,6 +39,14 @@
         height: 1750px;
     }
 
+    .footer-linea1{
+        font-size: 18px;
+    }
+
+    .footer-redes-icon{
+        width: 27px;
+    }
+
     /* .button-uxui, .button-disenioweb{
         margin-top: 10%;
     } */
@@ -81,6 +89,15 @@
 
     .contacto-titulo{
         font-size: 33px;
+    }
+
+    .footer-linea1{
+        font-size: 15px;
+    }
+
+    .footer-redes-icon{
+        width: 22px;
+        padding-top: 1.5vh;
     }
 }
 
@@ -136,6 +153,36 @@
 
     .contacto-formulario-contenedor{
         padding: 18px 40px;
+    }
+
+    .footer{
+        height: 18vh;
+    }
+
+    .footer-linea1{
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    .footer-redes-icon{
+        width: 18px;
+        padding-top: 1.5vh;
+    }
+
+    .footer-linea1-redes-p{
+        display: none;
+    }
+
+    .footer-linea1-redes-tel{
+        display: none;
+    }
+
+    .footer-linea1-redes-email{
+        display: none;
+    }
+
+    .footer-linea2{
+        font-size: 12px;
     }
 }
 
@@ -236,6 +283,10 @@
         height: 100px;
         resize: none;
     }
+
+    .footer-linea2{
+        font-size: 8px;
+    }
 }
 
 @media(max-width:1220px){
@@ -312,3 +363,95 @@
     width: 950px;
     }
 } */
+
+@media(min-height:800px){
+    .hero-info-texto-title{
+        margin-top: 100px;
+    }
+}
+
+@media(max-height:670px){
+    .foto-retrato{
+        width: 400px;
+    }
+    .empresas-info-logo{
+    width: 70px;
+    }
+
+    .aboutme-info-texto{
+    margin-bottom: 95px;
+    }
+}
+
+@media(max-height:612px){
+    .servicios{
+        height: 1300px;
+    }
+    .servicios-info-info-contenedora{
+        flex-wrap: wrap;
+        height: 75%;
+    }
+}
+
+@media(max-height:560px){
+    .foto-retrato{
+        width: 330px;
+    }
+    .hero-info-texto-title{
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .aboutme-info-texto{
+        margin-bottom: 65px;
+        margin-top: 65px;
+        max-width: 450px;
+        }
+    .aboutme-info-texto-h3{
+        font-size: 35px;
+    }
+    .aboutme-info-texto-p{
+        font-size: 14px;
+    }
+    .aboutme-info-img{
+        width: 400px;
+    }
+}
+
+@media(max-height:430px){
+    .aboutme-info-texto{
+        margin-bottom: 65px;
+        margin-top: 65px;
+        max-width: 950px;
+        }
+    .aboutme-info-texto-h3{
+        font-size: 35px;
+    }
+    .aboutme-info-texto-p{
+        font-size: 14px;
+    }
+    .aboutme-info-img{
+        display: none;
+    }
+}
+
+@media(max-height:478px){
+    .hero-info-img{
+        padding: 2vw;
+    }
+    
+    .foto-retrato{
+        width: 260px;
+    }
+    .empresas-info-logo{
+        width: 45px;
+    }
+}
+
+
+
+@media(max-height:380px){
+    .hero-info-texto-title{
+        font-size: 45px;
+        margin-bottom: 0px;
+    }    
+}
